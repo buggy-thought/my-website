@@ -1,0 +1,186 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+.top  {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0, .20),rgba(0,0,0, .35)),url('back.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.top .budget-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+.top .budget-container .budget-title-container{
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+    color: lightgrey;
+}
+.top .budget-container .budget-value{
+    padding: 0.2rem;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.top .budget-container .budget-income ,
+.top .budget-container .budget-expense{
+    padding: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #28B9B5;
+}
+.top .budget-container .budget-expense{
+   
+    background-color: #FF5049;
+}
+
+.top .budget-container .budget-income-text,
+.top .budget-container .budget-expense-text
+{
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: lightgrey;
+}
+
+.top .budget-container .budget-income-value,
+.top .budget-container .budget-expense-value{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+.top .budget-container .budget-expense-value{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.top .budget-container .budget-expense-percentage{
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    background: rgba(255,255,255,0.15);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.bottom .input {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 20px auto; 
+    
+}
+
+.bottom .input .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom .input .input-container .input-type {
+    display: flex;
+    flex: 1;
+    margin: 0 7px;
+    padding: 14px;
+    border: 0.5px solid lightgrey;
+    border-radius: 7px;
+}
+.bottom .input .input-container .input-description {
+    display: flex;
+    min-width: 360px;
+    margin: 0 7px;
+    padding: 15px;
+    border: 0.5px solid lightgrey;
+    border-radius: 7px;
+}
+.bottom .input .input-container .input-value {
+    display: flex;
+    max-width: 100px;
+    margin: 0 7px;
+    padding: 15px;
+    border: 0.5px solid lightgrey;
+    border-radius: 7px;
+}
+.bottom .input .input-container .input-btn {
+    display: flex;
+    flex: 1;
+    margin: 0 5px;
+    font-size: 38px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.container .income {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0 10px;
+    color: #28B9B5;
+}
+.container .expense {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0 10px;
+    color: #FF5049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
